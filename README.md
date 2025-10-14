@@ -26,7 +26,19 @@ conda activate VBx
 - truth_speaker_embedding：存储保存的演员声纹库（每个演员的embedding）
 - VBx-master：VBx模型代码
 ## Prepare Dataset
-对file-path路径下的 **json、data、video** 中的文件替换为想要提取电视剧的数据文件
+- 对file-path路径下的 **json、data、video** 中的文件替换为想要提取电视剧的数据文件
+- 更改actor_list_mapping.txt文件，按照data文件夹中的真实说话人音频（0/ ,1/, 2/）和真实演员名称对应
+```
+# 如：开端电视剧
+0 李诗情			
+1 肖鹤云			
+2 张成			
+3 杜劲松			
+4 王兴德 			
+5 陶映红			
+6 钥匙男			
+7 卢笛	
+```
 ## inference
 将根目录改为当前目录,执行下面命令即可得到最终结果，保存在results文件夹中
 ```
@@ -34,6 +46,7 @@ bash run.sh
 ```
 ## Reference
 [VBx](https://github.com/BUTSpeechFIT/VBx)
+
 
 
 
