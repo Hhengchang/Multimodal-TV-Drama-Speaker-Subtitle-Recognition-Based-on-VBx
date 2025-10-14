@@ -4,7 +4,15 @@ For the precise identification of speakers in films and TV series.At the same ti
 # Usage
 ## Installation
 ```
-https://github.com/Hhengchang/Multimodal-TV-Drama-Speaker-Subtitle-Recognition-Based-on-VBx
+git clone https://github.com/Hhengchang/Multimodal-TV-Drama-Speaker-Subtitle-Recognition-Based-on-VBx
+
+# 1.可以使用pip进行安装env
+conda create -n VBx python=3.9
+conda activate VBx
+pip install -r requirements.txt
+# 2.也可以使用conda进行安装
+conda env create -f environment.yml #会直接得到一个名为VBx的虚拟环境同时安装所有依赖
+conda activate VBx
 ```
 # 文件夹对应存储文件：
 
@@ -16,5 +24,6 @@ https://github.com/Hhengchang/Multimodal-TV-Drama-Speaker-Subtitle-Recognition-B
 - huawei/truth_speaker_embedding文件夹下存储保存的演员声纹库（每个演员的embedding）
 
 - huawei/VBx-master文件夹下是模型代码
+
 
 
