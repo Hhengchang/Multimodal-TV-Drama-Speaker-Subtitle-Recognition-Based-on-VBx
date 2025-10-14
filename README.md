@@ -1,5 +1,5 @@
-# Multimodal-TV-Drama-Speaker-Subtitle-Recognition-Based-on-VBx
-For the precise identification of speakers in films and TV series.At the same time, use OCR to extract each line of dialogue.Utilizing multimodal fusion to achieve precise recognition of the speakers' subtitles in films and TV series.
+## 文件夹对应存储文件：
+
 - huawei/json文件夹下存放通过ocr处理得到的字幕、演员表JSON文件（包含时间戳）
 - huawei/data文件夹下存放带少量标签的真实说话人音频（0/ ,1/, 2/ ....每个子文件夹下存放一个说话人音频）
 - huawei/video文件夹下存放原始视频
