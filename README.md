@@ -46,6 +46,8 @@ bash run.sh
 ```
 ## Reference
 [VBx](https://github.com/BUTSpeechFIT/VBx)
+[VBx-training](https://github.com/phonexiaresearch/VBx-training-recipe)
+
 
 
 
