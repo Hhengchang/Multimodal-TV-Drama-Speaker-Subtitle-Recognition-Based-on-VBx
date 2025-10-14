@@ -16,7 +16,7 @@ conda env create -f environment.yml #会直接得到一个名为VBx的虚拟环�
 conda activate VBx
 ```
 ## Change Pre-train Models
-在 **./VBx-master/VBx/models/ResNet101_16kHz** 路径下更换提取speaker embedding的预训练模型，其他预训练模型可在https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md 下载
+在 **./VBx-master/VBx/models/ResNet101_16kHz** 路径下更换提取speaker embedding的预训练模型，其他预训练模型可在[pretrain_model_download](https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md) 下载
 ## file-path
 - json：存放通过ocr处理得到的字幕、演员表JSON文件（包含时间戳）
 - data：存放带少量标签的真实说话人音频（0/ ,1/, 2/ ....每个子文件夹下存放一个说话人音频）
@@ -33,7 +33,8 @@ conda activate VBx
 bash run.sh
 ```
 ## Reference
-https://github.com/BUTSpeechFIT/VBx
+[VBx](https://github.com/BUTSpeechFIT/VBx)
+
 
 
 
