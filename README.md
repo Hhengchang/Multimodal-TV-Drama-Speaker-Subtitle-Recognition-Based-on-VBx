@@ -17,7 +17,7 @@ conda activate VBx
 ```
 ## Change Pre-train Models
 The pre-trained model for extracting speaker embeddings to the model located at **./VBx-master/VBx/models/ResNet101_16kHz**. Changing pre-trained models can be downloaded from [pretrain_model](https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md) 
-## file-path
+## File-Path
 - json: JSON file storing subtitles and cast information obtained through OCR processing (including timestamps)
 - data: Contains real speaker audio with a few labels (each subfolder stores one speaker's audio)
 - video: Stores the original video
@@ -39,7 +39,7 @@ The pre-trained model for extracting speaker embeddings to the model located at 
 6 钥匙男			
 7 卢笛	
 ```
-## inference
+## Inference
 Change the root directory to the current directory. Then, execute the following command to obtain the final result, which will be saved in the "results" folder.
 ```
 bash run.sh
@@ -91,6 +91,7 @@ bash run.sh
 [VBx](https://github.com/BUTSpeechFIT/VBx)
 
 [VBx-training](https://github.com/phonexiaresearch/VBx-training-recipe)
+
 
 
 
