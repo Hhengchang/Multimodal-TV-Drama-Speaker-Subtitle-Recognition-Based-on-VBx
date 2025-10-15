@@ -44,10 +44,54 @@ Change the root directory to the current directory. Then, execute the following 
 ```
 bash run.sh
 ```
+## Results
+```
+"results": {
+    "1": {
+      "start_time": "00:02:07.383",
+      "end_time": "00:02:07.983",
+      "text": "我要报警",
+      "role": "李诗情"
+    },
+    "2": {
+      "start_time": "00:02:08.103",
+      "end_time": "00:02:09.543",
+      "text": "45路公交车上有炸弹",
+      "role": "李诗情"
+    },
+    ...
+    "21": {
+      "start_time": "00:02:58.863",
+      "end_time": "00:02:59.823",
+      "text": "你看你的车多好",
+      "role": "私家车爸爸"
+    },
+    "22": {
+      "start_time": "00:02:59.943",
+      "end_time": "00:03:00.663",
+      "text": "你的车上面",
+      "role": "私家车爸爸"
+    },
+    ...
+    "32": {
+      "start_time": "00:04:04.383",
+      "end_time": "00:04:05.463",
+      "text": "不好意思我",
+      "role": "肖鹤云"
+    },
+    "33": {
+      "start_time": "00:04:08.823",
+      "end_time": "00:04:11.823",
+      "text": "我就是看你满头都是汗",
+      "role": "肖鹤云"
+    },
+    ...
+```
 ## Reference
 [VBx](https://github.com/BUTSpeechFIT/VBx)
 
 [VBx-training](https://github.com/phonexiaresearch/VBx-training-recipe)
+
 
 
 
